@@ -21,6 +21,6 @@ jobs:
           node launch.js > launch.sh
           sh launch.sh
 
-      - uses: actions/upload-artifact@v2.2.3
+      - uses: actions/upload-artifact@v4
         with:
           path: Dogfood_DevMain_*_x64_O365ProPlusRetail_en-us.zip
